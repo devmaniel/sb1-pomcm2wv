@@ -97,7 +97,7 @@ function App() {
       case 'product-detail':
         return selectedProductId ? (
           <ProductDetailPage 
-            productId={selectedProductId} 
+            productId={selectedProductssId} 
             onBack={() => setCurrentPage('category')} 
           />
         ) : null;
